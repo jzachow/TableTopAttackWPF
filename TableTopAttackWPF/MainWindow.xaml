@@ -1,0 +1,24 @@
+﻿<Window x:Class="TableTopAttackWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TableTopAttackWPF"
+        mc:Ignorable="d"
+        Title="SwordDamage" Height="175" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <CheckBox x:Name="flaming" Content="Flaming" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="flaming_Checked" Unchecked="flaming_Unchecked"/>
+        <CheckBox x:Name="magic" Content="Magic" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="magic_Checked" TouchUp="magic_TouchUp"/>
+        <Button Content="Roll for damage" Grid.ColumnSpan="2" Grid.Row="1" Margin="20, 10" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click" />
+        <TextBlock x:Name="damage" Text="damage" Grid.ColumnSpan="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" />
+    </Grid>
+</Window>

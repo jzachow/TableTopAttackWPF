@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TableTopAttackWPF/1.0.0": {
+        "runtime": {
+          "TableTopAttackWPF.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TableTopAttackWPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
